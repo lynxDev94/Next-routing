@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Page = () => {
+const News = () => {
   return (
     <>
       <h1>News Page</h1>
@@ -18,4 +18,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default News;

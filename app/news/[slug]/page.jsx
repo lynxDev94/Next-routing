@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Page = ({params}) => {
+const NewsDetails = ({params}) => {
     
   return (
     <div>{params.slug}</div>
   )
 }
 
-export default Page
+export default NewsDetails
