@@ -1,17 +1,18 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
 
-const Header = () => {
+export default function Header() {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-          <Link href="/news">News</Link>
-        </li>
-      </ul>
-    </div>
+    <header id="main-header">
+      <div id="logo">
+        <Link href="/">NextNews</Link>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/news">News</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
-};
-
-export default Header;
+}
